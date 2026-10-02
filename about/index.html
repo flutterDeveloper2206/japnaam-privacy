@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About JapNaam — Project</title>
+  <meta name="description" content="About the JapNaam project — a calm digital mandir for daily Naam Jap, mala tracking, Kids Jap, and devotion stories." />
+  <style>
+    :root {
+      --bg: #1a0f0a;
+      --card: rgba(42, 24, 16, 0.72);
+      --text: #fff8f0;
+      --muted: #d4b89a;
+      --accent: #e8a05c;
+      --line: rgba(232, 160, 92, 0.28);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background:
+        radial-gradient(ellipse at top left, rgba(232, 160, 92, 0.18), transparent 50%),
+        linear-gradient(160deg, #1a0f0a 0%, #3a1f14 55%, #1a0f0a 100%);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    nav {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+      font-size: 0.92rem;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      padding: 8px 14px;
+      border-radius: 999px;
+    }
+    nav a:hover { background: rgba(232, 160, 92, 0.12); }
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .om {
+      font-size: 48px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 10px;
+      letter-spacing: 0.02em;
+    }
+    .slogan {
+      color: var(--accent);
+      font-style: italic;
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 0; padding-left: 1.2rem; }
+    li { margin-bottom: 6px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      background: rgba(26, 15, 10, 0.35);
+    }
+    .chip strong {
+      display: block;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .chip span { color: var(--muted); font-size: 0.92rem; }
+    a { color: var(--accent); }
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="./">About</a>
+      <a href="../">Privacy Policy</a>
+      <a href="https://kishan-dobariya-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+    </nav>
+
+    <header>
+      <div class="om" aria-hidden="true">ॐ</div>
+      <h1>About JapNaam</h1>
+      <p class="slogan">Har Saans Mein Naam, Har Pal Mein Shanti.</p>
+      <p class="meta">
+        A calm digital mandir for daily Naam Jap<br />
+        Package: <code>com.japnaam.application</code> · Version 1.0.0
+      </p>
+    </header>
+
+    <section>
+      <h2>What is JapNaam?</h2>
+      <p>
+        JapNaam is a peaceful Flutter app for focused Naam Jap. It helps you chant with
+        intention, complete your mala, keep streaks, read devotion stories, and introduce
+        children to Naam through a gentle Kids Jap game — all offline on your device.
+      </p>
+      <p>
+        No account is required. Your jap history and settings stay on your phone.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core features</h2>
+      <div class="grid">
+        <div class="chip">
+          <strong>Jap counter</strong>
+          <span>Tap to chant with mala tracking (108 beads)</span>
+        </div>
+        <div class="chip">
+          <strong>Sadhana analytics</strong>
+          <span>Daily target, streaks, sessions, and insights</span>
+        </div>
+        <div class="chip">
+          <strong>Mantra library</strong>
+          <span>Ram, Krishna, Shiva, Hanuman, and custom mantras</span>
+        </div>
+        <div class="chip">
+          <strong>Kids Jap</strong>
+          <span>Playful falling blessings — same real jap count</span>
+        </div>
+        <div class="chip">
+          <strong>Stories</strong>
+          <span>Short bhakti stories for inspiration</span>
+        </div>
+        <div class="chip">
+          <strong>Offline first</strong>
+          <span>Local storage, export/import backup, no cloud account</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience details</h2>
+      <ul>
+        <li>Background mandir music, tap sound, and haptic feedback</li>
+        <li>Daily reminders (optional notifications)</li>
+        <li>Languages: English, Hindi, and Gujarati</li>
+        <li>Light / Dark / Night jap modes</li>
+        <li>Profile avatar and personal display name (optional)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technology</h2>
+      <p>
+        Built with <strong>Flutter</strong> and <strong>Dart</strong> for Android (and iOS-ready).
+        Local data uses on-device storage (Hive). Notifications are handled through the
+        platform notification APIs. The app does not send your jap history to a custom backend.
+      </p>
+      <ul>
+        <li>Android package: <code>com.japnaam.application</code></li>
+        <li>Privacy-first design aligned with Play Console Data safety expectations</li>
+        <li>Store assets prepared for Google Play listing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Developer</h2>
+      <p>
+        <strong>Kishan Dobariya</strong> — Flutter developer based in Ahmedabad, India.
+      </p>
+      <ul>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:flutterdeveloper2206@gmail.com">flutterdeveloper2206@gmail.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong>
+          <a href="tel:+919023256218">+91 90232 56218</a>,
+          <a href="tel:+919429431818">9429431818</a>
+        </li>
+        <li>
+          <strong>Portfolio:</strong>
+          <a href="https://kishan-dobariya-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">kishan-dobariya-portfolio.netlify.app</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/kishan-dobariya-99b005217" target="_blank" rel="noopener noreferrer">kishan-dobariya-99b005217</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/Kishandobariya76" target="_blank" rel="noopener noreferrer">Kishandobariya76</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Legal</h2>
+      <p>
+        Read the
+        <a href="../">JapNaam Privacy Policy</a>
+        for details on on-device data, permissions, and how to remove your information.
+      </p>
+    </section>
+
+    <footer>
+      Har Saans Mein Naam, Har Pal Mein Shanti.<br />
+      © 2026 JapNaam · Kishan Dobariya
+    </footer>
+  </main>
+</body>
+</html>
